@@ -26,3 +26,12 @@ public class ArraySwap {
 
     }
 }
+
+/* Output */
+
+// Array1 and Array2 before Swap: 
+// Array 1: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+// Array 2: [7, 14, 21, 28, 35, 42, 49, 56, 63, 70]
+// Array1 and Array2 after Swap: 
+// Array 1: [7, 14, 21, 28, 35, 42, 49, 56, 63, 70]
+// Array 2: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
