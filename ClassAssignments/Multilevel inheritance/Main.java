@@ -1,16 +1,18 @@
 public class Main{
     public static void main(String[] args) {
-        Child obj = new Child(100,2,2);
+        Child obj = new Child(100,2,2,"The SI is ");
         obj.displaySI();
     }
 
 }
 class Child extends Parent {
-   Child(int p, int r, int t) {
+    String message;
+   Child(int p, int r, int t,String msg) {
           super(p,r,t);
+          this.message = msg;
     }
     void displaySI(){
-        System.out.println("The SI is" + this.SI(this.p, this.r, this.t));
+        System.out.println(message + SI(p, r, t));
     }
 
 }
@@ -36,4 +38,3 @@ class Parent extends Base{
     }
     
 }
-
